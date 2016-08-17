@@ -7,7 +7,7 @@ using namespace std;
 
 void calc_area_triangulo(){
 
-    int baset, int alturat;
+    int baset, alturat;
 
     std::cout << "Entre com o valor da base do triangulo: " << std::endl;
     std::cin >> baset;
@@ -24,14 +24,14 @@ void calc_area_triangulo(){
 
 void calc_area_retangulo(){
 
-    int baser, int alturar;
+    int baser, alturar;
 
     std::cout << "Entre com o valor da base do retangulo: " << std::endl;
     std::cin >> baser;
     std::cout << "Entre com o valor da altura do retangulo: " << std::endl;
     std::cin >> alturar;
 
-    int arear = area_triangulo(baser, alturar);
+    int arear = area_retangulo(baser, alturar);
 
     std::cout << arear << std::endl;
 }
@@ -43,7 +43,7 @@ void calc_area_quadrado(){
     std::cout << "Entre com o valor do lado do quadrado: " << std::endl;
     std::cin >> ladoq;
 
-    int areaq = area_quadrado(ladoq)
+    int areaq = area_quadrado(ladoq);
 
     std::cout << areaq << std::endl;
 }
@@ -63,7 +63,7 @@ void calc_area_circulo(){
 
 
 void calc_area_piramide(){
-  float areabasepi, float arealateralpi;
+  float areabasepi, arealateralpi;
 
   std::cout << "Entre com o valor da area base da piramide: " << std::endl;
   std::cin >> areabasepi;
@@ -91,7 +91,7 @@ void calc_area_cubo(){
 
 
 void calc_area_paralelepipedo(){
-    float arestapara1, float arestaopara2, float arestaopara3;
+    float arestapara1, arestapara2, arestapara3;
 
     std::cout << "Entre com o valor da aresta 1 do paralelepipedo: " << std::endl;
     std::cin >> arestapara1;
@@ -100,7 +100,7 @@ void calc_area_paralelepipedo(){
     std::cout << "Entre com o valor da aresta 3 do paralelepipedo: " << std::endl;
     std::cin >> arestapara3;
 
-    float areapara = area_paralelepipedo(arestapara1, arestaopara2, arestapara3);
+    float areapara = area_paralelepipedo(arestapara1, arestapara2, arestapara3);
 
     std::cout << areapara << std::endl;
 

@@ -4,11 +4,10 @@
 #define PI 3.1415
 
 
-int calc_perimetro_triangulo(int lado);
-int calc_perimetro_retangulo(int base, int altura);
-int calc_perimetro_quadrado(int lado);
-float calc_perimetro_circulo(float raio);
-
+void calc_perimetro_triangulo();
+void calc_perimetro_retangulo();
+void calc_perimetro_quadrado();
+void calc_perimetro_circulo();
 
 
 #endif

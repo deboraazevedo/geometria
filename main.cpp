@@ -1,7 +1,7 @@
-#include <streamio>
+#include <iostream>
 #include "calcarea.h"
 #include "calcperimetro.h"
-#include "calcvolume.h"
+// #include "calcvolume.h"
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int mostrar_menu() {
     cout << "7 - Paralelepipedo \n" << endl;
     cout << "8 - Esfera \n" << endl;
     cout << "0 - Sair \n" << endl;
-    
+
 
     cout<< ("Opcao: ") << endl;
     cin >> opcao;
@@ -27,7 +27,7 @@ int mostrar_menu() {
 
 
 
-int main(v) {
+int main() {
     int opcao = 1;
 
 
@@ -39,13 +39,13 @@ int main(v) {
             calc_area_triangulo();
             calc_perimetro_triangulo();
         }
-        
+
         else if (opcao == 2){
-            calc_area_triangulo();
-            calc_perimetro_triangulo();
-            
-        } 
-        
+            calc_area_retangulo();
+            calc_perimetro_retangulo();
+
+        }
+
         else{
         	cout << "Opção inválida." << endl;
 		}

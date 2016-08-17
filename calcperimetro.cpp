@@ -5,56 +5,54 @@
 using namespace std;
 
 
-int calc_perimetro_triangulo(int lado){
-    
+void calc_perimetro_triangulo(){
 
     int ladot;
-    
+
     std::cout << "Entre com o valor do lado do triangulo: " << std::endl;
     std::cin >> ladot;
-    
+
     int perimetrot = perimetro_triangulo(ladot);
-    
-    return perimetrot;
-    
+
+    std::cout << perimetrot << std::endl;
+
 }
 
 
-int calc_perimetro_retangulo(int base, int altura){
-    
-    int baser, int alturar;
-    
+void calc_perimetro_retangulo(){
+
+    int baser, alturar;
+
     std::cout << "Entre com o valor da base do retangulo: " << std::endl;
     std::cin >> baser;
     std::cout << "Entre com o valor da altura do retangulo: " << std::endl;
     std::cin >> alturar;
-    
-    int perimetror = perimetro_triangulo(baser, alturar);
-    
-    return perimetror;
+
+    int perimetror = perimetro_retangulo(baser, alturar);
+
+    std::cout << perimetror << std::endl;
 }
 
 
-int calc_perimetro_quadrado(int lado){
-    
+void calc_perimetro_quadrado(){
+
     int ladoq;
     std::cout << "Entre com o valor do lado do quadrado: " << std::endl;
     std::cin >> ladoq;
-    
-    int perimetroq = perimetro_quadrado(ladoq)
-    
-    return perimetroq;
-}
-    
 
-float calc_perimetro_circulo(float raio){
-    
+    int perimetroq = perimetro_quadrado(ladoq);
+
+    std::cout << perimetroq << std::endl;
+}
+
+
+void calc_perimetro_circulo(){
+
     float raioc;
     std::cout << "Entre com o valor da raio do circulo: " << std::endl;
     std::cin >> raioc;
-    
-    float perimetroc = perimetro_circulo(raioc);
-    
-    return perimetroc;
-}
 
+    float perimetroc = perimetro_circulo(raioc);
+
+    std::cout << perimetroc << std::endl;
+}
