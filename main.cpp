@@ -1,7 +1,7 @@
 #include <iostream>
 #include "calcarea.h"
 #include "calcperimetro.h"
-// #include "calcvolume.h"
+#include "calcvolume.h"
 
 using namespace std;
 
@@ -46,9 +46,47 @@ int main() {
 
         }
 
+        else if (opcao == 3){
+            calc_area_quadrado();
+            calc_perimetro_quadrado();
+
+        }
+
+        else if (opcao == 4){
+            calc_area_circulo();
+            calc_perimetro_circulo();
+
+        }
+
+        else if (opcao == 5){
+            calc_area_piramide();
+            calc_volume_piramide();
+
+        }
+
+        else if (opcao == 6){
+            calc_area_cubo();
+            calc_volume_cubo();
+
+        }
+
+        else if (opcao == 7){
+            calc_area_retangulo();
+            calc_volume_paralelepipedo();
+
+        }
+
+        else if (opcao == 8){
+            calc_area_retangulo();
+            calc_volume_esfera();
+
+        }
+
         else{
         	cout << "Opção inválida." << endl;
-		}
+        }
+
+
     }
 
     return 0;

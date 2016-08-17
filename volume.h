@@ -7,7 +7,7 @@
 float volume_piramide(float area_base, float altura);
 float volume_cubo(float aresta);
 float volume_paralelepipedo(float aresta1, float aresta2, float aresta3);
-float perimetro_esfera(float raio);
+float volume_esfera(float raio);
 
 
 #endif
