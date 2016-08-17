@@ -4,7 +4,7 @@
 
 using namespace std;
 
-
+// Função que pede ao usuario que digite os valores de base e altura para que seja calculada a área do triangulo equilatero
 void calc_area_triangulo(){
 
     int baset, alturat;
@@ -22,6 +22,7 @@ void calc_area_triangulo(){
 }
 
 
+// Função que pede ao usuario que digite os valores de base e altura para que seja calculada a área do retangulo
 void calc_area_retangulo(){
 
     int baser, alturar;
@@ -36,7 +37,7 @@ void calc_area_retangulo(){
     std::cout << arear << std::endl;
 }
 
-
+// Função que pede ao usuario que digite o valor do lado para que seja calculada a área do quadrado
 void calc_area_quadrado(){
     int ladoq;
 
@@ -49,6 +50,7 @@ void calc_area_quadrado(){
 }
 
 
+// Função que pede ao usuario que digite o valor do raio para que seja calculada a área do circulo
 void calc_area_circulo(){
 
     float raioci;
@@ -62,6 +64,7 @@ void calc_area_circulo(){
 }
 
 
+// Função que pede ao usuario que digite os valores da area base e area lateral para que seja calculada a área da piramide
 void calc_area_piramide(){
   float areabasepi, arealateralpi;
 
@@ -77,6 +80,7 @@ void calc_area_piramide(){
 }
 
 
+// Função que pede ao usuario que digite o valor da aresta para que seja calculada a área do cubo
 void calc_area_cubo(){
     int arestacu;
 
@@ -89,7 +93,7 @@ void calc_area_cubo(){
 }
 
 
-
+// Função que pede ao usuario que digite os valores  das 3 arestas para que seja calculada a área do paralelepipedo
 void calc_area_paralelepipedo(){
     float arestapara1, arestapara2, arestapara3;
 
@@ -107,6 +111,7 @@ void calc_area_paralelepipedo(){
 }
 
 
+// Função que pede ao usuario que digite o valor do raio para que seja calculada a área da esfera
 void calc_area_esfera(){
 
     float raioe;

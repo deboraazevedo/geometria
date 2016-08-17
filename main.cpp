@@ -4,7 +4,7 @@
 #include "calcvolume.h"
 
 using namespace std;
-
+// Função que mostra as opções de figuras geometricas para que sejam calculados area e perimetro (para figuras planas), e area e volume (para figuras espaciais)
 int mostrar_menu() {
     int opcao;
 
@@ -26,7 +26,7 @@ int mostrar_menu() {
 }
 
 
-
+// Função principal, a qual chama a função mostra_menu() e, de acordo com a opção escolhida, chama as respectivas funções de calculo.
 int main() {
     int opcao = 1;
 
