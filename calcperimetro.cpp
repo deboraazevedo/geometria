@@ -5,6 +5,7 @@
 using namespace std;
 
 
+// Função que pede ao usuario que digite os valores de base e altura para que seja calculado o perimetro do triangulo equilatero
 void calc_perimetro_triangulo(){
 
     int ladot;
@@ -19,6 +20,7 @@ void calc_perimetro_triangulo(){
 }
 
 
+// Função que pede ao usuario que digite os valores de base e altura para que seja calculadao o perimetro do retangulo
 void calc_perimetro_retangulo(){
 
     int baser, alturar;
@@ -34,6 +36,7 @@ void calc_perimetro_retangulo(){
 }
 
 
+// Função que pede ao usuario que digite o valor do lado para que seja calculado o perimetro do quadrado
 void calc_perimetro_quadrado(){
 
     int ladoq;
@@ -46,6 +49,7 @@ void calc_perimetro_quadrado(){
 }
 
 
+// Função que pede ao usuario que digite o valor do raio para que seja calculado o perimetro do circulo
 void calc_perimetro_circulo(){
 
     float raioc;

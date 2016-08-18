@@ -51,7 +51,7 @@ float area_cubo(float aresta){
 }
 
 
-//Função que calcula a área de um paralelépipedo
+//Função que calcula a área de um paralelepipedo
 float area_paralelepipedo(float aresta1, float aresta2, float aresta3){
 
     float parte1 = aresta1 * aresta2 * 2;

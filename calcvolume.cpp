@@ -2,6 +2,8 @@
 #include "calcvolume.h"
 #include "volume.h"
 
+
+// Função que pede ao usuario que digite os valores da area base e area lateral para que seja calculado o volume da piramide
 void calc_volume_piramide(){
 
     float area_base_p, area_lateral_p;
@@ -18,6 +20,7 @@ void calc_volume_piramide(){
 }
 
 
+// Função que pede ao usuario que digite o valor do raio para que seja calculado o volume do cubo
 void calc_volume_cubo(){
 
     float arestac;
@@ -30,7 +33,7 @@ void calc_volume_cubo(){
 }
 
 
-
+// Função que pede ao usuario que digite os valores  das 3 arestas para que seja calculado o volume do paralelepipedo
 void calc_volume_paralelepipedo(){
 
     float arestapara1, arestapara2, arestapara3;
@@ -47,6 +50,7 @@ void calc_volume_paralelepipedo(){
 }
 
 
+// Função que pede ao usuario que digite o valor do raio para que seja calculado o volume da esfera
 void calc_volume_esfera(){
 
     float raioe;
